@@ -1,0 +1,15 @@
+# .github/workflows/02-basic.yml
+
+name: 02. 기본 문법 실습
+on:
+  workflow_dispatch
+
+jobs:
+  basic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 첫 번째 명령
+        run: echo "Step 1 실행"
+
+      - name: 두 번째 명령
+        run: echo "Step 2 실행"
