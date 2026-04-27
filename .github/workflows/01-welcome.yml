@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 인사 시작
-        run: "환영합니다!"
+        run: echo "=== 환영합니다! ==="
       - name: 인사 출력
         run: |
           echo "오늘은 당신의 첫 출근일입니다"
@@ -16,5 +16,5 @@ jobs:
           echo "팀: DevOps"
           echo "Runner OS: Linux"
       - name: 인사 마무리
-        run: "행운을 빕니다!"
+        run: echo "=== 행운을 빕니다! ==="
             
