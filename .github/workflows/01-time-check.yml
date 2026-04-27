@@ -13,9 +13,9 @@ jobs:
         run: TZ='Asia/Seoul' date
       - name: 시간 정보 종합
         run: |
-          === 시간 정보 ===
+          echo "=== 시간 정보 ==="
           UTC: $(date -u)
           KST: $(TZ='Asia/Seoul' date)
           Unix Timestamp: $(date +%s)
           요일: $(date +%A)
-          === 끝 ===
+          echo "=== 끝 ==="
