@@ -13,3 +13,11 @@ jobs:
 
       - name: 두 번째 명령
         run: echo "Step 2 실행"
+
+      - name: 멀티라인 명령어
+        run: |
+          echo "줄 1"
+          echo "줄 2"
+          echo "줄 3"
+          ls -al
+          pwd
