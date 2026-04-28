@@ -15,4 +15,4 @@ jobs:
     steps:
       - name: vars 출력
         run: |
-          echo "URL: ${{ vars.APP_API }}"
+          echo "URL: ${{ vars.API_URL }}"
